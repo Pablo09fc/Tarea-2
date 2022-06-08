@@ -1,0 +1,15 @@
+#encabezado {
+    background-color: cadetblue;
+    color: white;
+    text-align: center
+}
+
+h2 {
+    background-color: cadetblue;
+    color: white;
+}
+
+a:hover{
+    background-color: blue;
+    color: white;
+}

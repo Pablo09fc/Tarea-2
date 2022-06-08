@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <title>REGISTRO EN VIDEOJUEGOS WIKI</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="Página de registro de VIDEOJUEGOS WIKI">
+        <meta name="keywords" content="html5, css, VIDEOJUEGOS WIKI">
+        <link href="estilos/menu.css" rel="stylesheet" type="text/css"/>
+        <link href="estilos/estilos_general.css" rel="stylesheet" type="text/css"/>
+        
+    </head>
+    <body>
+        <header class="encabezado">
+            <nav class="nav">
+                <a href="menu.html" class="tamano nav-link">VIDEOJUEGOS WIKI</a>
+                <ul>
+                    <li><a class="nav-link" href="ranking.html">Ranking</a></li>
+                    <li><a class="nav-link" href="menu.html">Home</a></li>
+                    <li><a class="nav-link" href="comprar.html">Descargar</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <div>espacio</div>
+        <div>espacio</div>
+        <div>espacio</div>
+        <div>espacio</div>
+        <div>espacio</div>
+        
+        <section>
+            <h2>Registrarse</h2>
+            <article>
+                <header><h3>Ingrese los siguientes datos para completar su registro</h3></header>
+                <hr>
+                <form action="confirmacion.jsp" method="post">
+                    <fieldset>
+                        <legend>Datos personales</legend>
+                        <label>Nombre completo</label>
+                        <input type="text" name="texto" required="">
+                        <br/>
+                        <label>Correo electrónico:</label>
+                        <input type="email" name="correo" placeholder="sucorreo@xxxxx.xxx">
+                        <br/>
+                        <label>Contraseña:</label>
+                        <input type="password" name="clave">
+                        <br/>
+                        <label>Celular:</label>
+                        <input type="tel" name="teléfono" placeholder="xxxx-xxxx" required="">
+                        <br/>                      
+                    </fieldset>
+                    <label>Terminar registro:</label>
+                    <input type="submit" name="Registrar">
+                </form>
+            </article>
+        </section>
+    </body>
+</html>
